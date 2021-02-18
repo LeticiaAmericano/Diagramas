@@ -1,0 +1,82 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hands-On 01: Fundamentos em Banco de Dados
+Letícia Americano Lucas - 691290
+Conceitos Básicos de Banco de Dados.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. O que é um sistema de banco de dados (SBD)? 
+
+R: O Sistema de Banco de Dados refere ao conjunto de dados relacionados e sua respectiva forma de acesso e organização.  
+
+2. Do que um SBD é composto? 
+
+R: O Sistema de Banco de Dados é composto por uma coleção de dados, uma estrutura lógica de dados, podendo armazenar, organizar e manipular, e um software, provendo acesso ao Banco de dados do usuário e aplicações.  
+
+3. Como usuários e aplicações interagem com um SBD? 
+
+R: Os usuários e as aplicações interagem com o sistema submetendo consultas, nas quais são interpretadas pelo sistema. 
+
+4. O que é um banco de dados (BD)? Cite um exemplo de um BD, indicando o link onde seja possível encontrá-lo. 
+
+R: O Banco de dados é uma coleção de dados organizados, que, assim atende as necessidades especificas dos usuários e é presente em diferentes ambientes de negócio. Como exemplo, o conjunto de dados de produtos da “Amazon” apresenta um Banco de Dados gigante.  
+
+https://www.amazon.com.br/gp/bestsellers/?ref_=nav_em_cs_bestsellers_0_1_1_2   
+
+5. Quais são as propriedades de um BD? 
+  
+R: As propriedades que um Banco de Dados possui são finalidade, construindo por um proposito especifico, realidade, representando o mundo real, coerência, mantendo a coerência lógica da coleção, e compartilhamento, provendo compartilhamento de dados. 
+
+6. Quais são as etapas de um projeto de BD? 
+
+R: As etapas presentes no Banco de Dados são especificação, descrevendo o minimundo, análise de requisitos, restringindo as operações, projeto conceitual, estruturas e restrição conceituais, projeto lógico, estruturas e restrições lógicas, e projeto físico, estruturas e restrições físicas. 
+  
+7. O que é um sistema gerenciador de banco de dados (SGBD)? 
+
+R: O Sistema Gerenciador de Banco de Dados tem como objetivo proporcionar um ambiente conveniente e eficiente para armazenar e recuperar informações do Banco de Dados. 
+
+8. Quais são as propriedades de um SGBD? 
+
+R: O SGBD tem como propriedades flexibilidade, tempo de desenvolvimento, relacionamento complexos, disponibilidade elevada, restrições de acesso, garantia de padrões, economia de escala, controle de redundância, suporte para múltiplas visões de dados, natureza auto restritiva , isolamento entre programas e dados, múltiplas interfaces para usuário, compartilhamento de Dados e processamento de transações multiusuário, persistência de Dados, controle de acesso e autorização, backup e recuperação, armazenamento de estruturas para o processamento eficiente de consultas, concorrência, representação de múltiplos relacionamentos, segurança, implementação de restrições de integridade e regras de negociação, integridade e monitoramento.   
+
+9. Indique situações em que o uso de SGBD pode se mostrar inadequado. 
+
+R: O SGBD é inadequado em situações como necessidade de acesso a múltiplos usuários, aplicações com necessidades de alta complexibilidade, requisitos sem necessidade de rigidez, baixa especificação e custo baixo para investimento. 
+
+10. O que é um modelo de dados?  
+  
+R: Um modelo de dados é uma estrutura lógica que determina a forma como os dados são armazenados, organizados e manipulados. 
+
+11. Em relação ao nível de abstração, quais são os tipos de modelos de dados? 
+  
+R: De acordo com o nível de abstração, o modelo de dados conceitual possui um alto nível de abstração, o modelo de dados representativo um nível intermediário de abstração e o modelo de dados físico possui um baixo nível de abstração. 
+
+12. O que é um Esquema de BD? 
+
+R: O Esquema é a descrição do Banco de Dados. 
+
+13. O que é uma Instância de BD? 
+
+R: A instancia de Banco de Dados é um conjunto de dados armazenados em determinado momento. 
+
+14. Quais as vantagens de se adotar uma Arquitetura de Três Esquemas para implementar um BD?  
+
+R: A arquitetura de 3 esquemas é uma abordagem que permite visualização em diferentes níveis, assim, também, a autodescrição dos metadados, suporte de múltiplas visões e independência de aplicações, garantindo, assim, alterações na estrutura não necessariamente levem a mudanças em aplicações.  
+
+15. Quais níveis existem em uma Arquitetura de Três Esquemas? 
+
+R: Existem em uma Arquitetura de Três Esquemas os níveis externos, sendo a visão do usuário, conceitual, onde aparece a estrutura do Banco de Dados, e interno, estrutura do armazenamento de dados possa ser realizado.  
+
+16. O que é Mapeamento em uma Arquitetura de Três Esquemas? 
+
+R: O Mapeamento em uma Arquitetura de Três Esquemas é a transformação de requisições entre níveis. 
+
+17. O que é Independência de Dados e qual sua importância para um SBD? 
+
+R: A Independência de Dados é a capacidade de alterar o esquema conceitual sem precisar alterar o esquema externo. 
+
+18. O que é uma Linguagem de Consulta? 
+
+R: A Linguagem de Consulta é uma abordagem do Banco de Dados para oferecer linguagens e interfaces apropriadas para cada tipo de usuário. 
+
+19. Cite as linguagens incorporadas na linguagem SQL. 
+
+R: As linguagens SQL presentes são VDL, linguagens de definição de visão que especifica o esquema externo, as visões de usuário e seus mapeamento ao esquema conceitual, DDL, linguagens de definição de dados que especifica o esquema conceitual, SDL, linguagem de definição de armazenamento que especifica o esquema interno, SDL, linguagens de definição de armazenamento que especifica o esquema interno, e DML, linguagens de manipulação de dados utilizada para especificação de operações de inserção, exclusão, modificação e recuperação de dados. 
